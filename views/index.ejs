@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= username %></title>
+  <% include ./template/headcss.ejs%>
+</head>
+<body>
+<% include ./template/header.ejs%>
+<h1><%= username %></h1>
+<p>Welcome  <%= username %></p>
+<p><%=msg%></p>
+<a href="/logout">logout</a>
+<% include template/footjs.ejs%>
+</body>
+</html>
